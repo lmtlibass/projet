@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T22:44:54.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.4.7" etag="Fkpqk-8NVhG5VDI1B1l6" type="github"><diagram id="7B3_lq2MieIHd5UeSroE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T23:02:11.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="oNxDYYi7eL4g0ETYg16e" version="16.4.7" type="github">
+  <diagram id="7B3_lq2MieIHd5UeSroE" name="Page-1">
+    <mxGraphModel dx="782" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-3" value="Locataire" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.062;exitY=0.711;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rX-uBGYNyZ_TR_ayeF2w-30" target="rX-uBGYNyZ_TR_ayeF2w-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rX-uBGYNyZ_TR_ayeF2w-3" target="rX-uBGYNyZ_TR_ayeF2w-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="200" as="sourcePoint" />
+            <mxPoint x="150" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-22" value="use case" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="100" width="366" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-23" value="S&#39;authentifier" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="250" y="225" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-27" value="Modifier profile" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-29" value="Consulter paiement" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-30" value="Payer loyer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rX-uBGYNyZ_TR_ayeF2w-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="470" y="240" as="sourcePoint" />
+            <mxPoint x="370" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-34" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.606;entryY=0.908;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="rX-uBGYNyZ_TR_ayeF2w-27" target="rX-uBGYNyZ_TR_ayeF2w-23">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rX-uBGYNyZ_TR_ayeF2w-35" value="Use case : Locataire" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="374" y="74" width="80" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
